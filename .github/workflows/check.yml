@@ -1,0 +1,33 @@
+name: Nix Flake Check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: DeterminateSystems/nix-installer-action@main
+
+      - uses: DeterminateSystems/magic-nix-cache-action@main
+
+      - name: nix flake check
+        run: nix flake check --print-build-logs
+
+#  build-iso:
+#    runs-on: ubuntu-latest
+#    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+#    steps:
+#      - uses: actions/checkout@v4
+#
+#      - uses: DeterminateSystems/nix-installer-action@main
+#
+#      - uses: DeterminateSystems/magic-nix-cache-action@main
+#
+#      - name: Build ISO
+#        run: nix build .#iso --print-build-logs
