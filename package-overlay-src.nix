@@ -19,6 +19,7 @@
             tag = "2.0.20";
             hash = "sha256-6Wod4aIjb0Slyb45y5b5iSMelqgRuhiiV/NCCx3lRCQ=";
           };
+        });
       })
     ];
   };
