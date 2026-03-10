@@ -1,0 +1,18 @@
+- kernel-config.nix
+  - How to recompile the kernel with a config changed
+- kernel-initrd-modules.nix
+  - How to force load modules in initrd
+- kernel-modprobe-config.nix
+  - How to change the config that kernel modules are loaded (modprobed) with
+- kernel-patch-module.nix
+ -  How to patch just a single kernel module without rebuilding the whole kernel
+- kernel-patch.nix
+  - How to patch the whole kernel
+- kernel-version.nix
+  - How to use a specific kernel version
+- linux-firmware.nix
+  - How to add binaries to linux-firmware (`/lib/firmware`)
+- package-overlay-patches.nix
+  - How to add patches to a package
+- package-overlay-src.nix
+  - How to change a package source
