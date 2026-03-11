@@ -13,6 +13,7 @@ Standalone NixOS module examples for kernel configuration, patches, overlays, fi
 - **linux-firmware.nix** — Add binaries to linux-firmware (`/lib/firmware`)
 - **package-overlay-patches.nix** — Add patches to a package
 - **package-overlay-src.nix** — Change a package source
+- **patch-acpi-tables.nix** — Add or override ACPI tables
 
 ## CI & Validation
 

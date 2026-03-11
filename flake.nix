@@ -37,6 +37,7 @@
         ./linux-firmware.nix
         ./package-overlay-patches.nix
         ./package-overlay-src.nix
+        ./patch-acpi-tables.nix
       ];
     in
     {
