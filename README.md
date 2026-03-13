@@ -14,6 +14,7 @@ Standalone NixOS module examples for kernel configuration, patches, overlays, fi
 - **package-overlay-patches.nix** — Add patches to a package
 - **package-overlay-src.nix** — Change a package source
 - **patch-acpi-tables.nix** — Add or override ACPI tables
+- **udev-custom-rules.nix** — Add custom udev rules
 
 ## CI & Validation
 

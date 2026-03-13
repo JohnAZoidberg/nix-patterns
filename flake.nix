@@ -38,6 +38,7 @@
         ./package-overlay-patches.nix
         ./package-overlay-src.nix
         ./patch-acpi-tables.nix
+        ./udev-custom-rules.nix
       ];
     in
     {
