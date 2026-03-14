@@ -10,9 +10,9 @@
     overlays = [
       (final: prev: {
         fwupd = prev.fwupd.overrideAttrs (oldAttrs: {
-	  # This may fail if the package in nixpkgs has patches that are
-	  # incompatible with the new sources
-	  version = "2.0.20";
+          # This may fail if the package in nixpkgs has patches that are
+          # incompatible with the new sources
+          version = "2.0.20";
           src = prev.fetchFromGitHub {
             owner = "fwupd";
             repo = "fwupd";
