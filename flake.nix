@@ -39,6 +39,7 @@
         ./package-overlay-src.nix
         ./patch-acpi-tables.nix
         ./udev-custom-rules.nix
+        ./udev-extra-hwdb.nix
       ];
     in
     {
