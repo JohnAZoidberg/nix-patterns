@@ -35,12 +35,14 @@
         ./kernel-patch-module.nix
         ./kernel-params.nix
         ./kernel-version.nix
+	./kgdb.nix
         ./linux-firmware.nix
         ./package-overlay-patches.nix
         ./package-overlay-src.nix
         ./patch-acpi-tables.nix
         ./udev-custom-rules.nix
         ./udev-extra-hwdb.nix
+	./usb3-debug.nix
       ];
     in
     {
