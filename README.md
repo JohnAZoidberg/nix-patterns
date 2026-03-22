@@ -9,6 +9,7 @@ Standalone NixOS module examples for kernel configuration, patches, overlays, fi
 - **kernel-modprobe-config.nix** — Change modprobe parameters for kernel modules
 - **kernel-patch-module.nix** — Patch a single kernel module without rebuilding the whole kernel
 - **kernel-patch.nix** — Patch the whole kernel
+- **kernel-params.nix** — Add kernel commandline parameter
 - **kernel-version.nix** — Use a specific kernel version
 - **linux-firmware.nix** — Add binaries to linux-firmware (`/lib/firmware`)
 - **package-overlay-patches.nix** — Add patches to a package

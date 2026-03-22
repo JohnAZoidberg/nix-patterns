@@ -33,6 +33,7 @@
         ./kernel-modprobe-config.nix
         ./kernel-patch.nix
         ./kernel-patch-module.nix
+        ./kernel-params.nix
         ./kernel-version.nix
         ./linux-firmware.nix
         ./package-overlay-patches.nix
